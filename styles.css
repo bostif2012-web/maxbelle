@@ -660,11 +660,6 @@ h3 {
   opacity: 1;
   transform: translateY(0);
 }
-.hero .reveal {
-  opacity: 1;
-  transform: none;
-  transition: none;
-}
 @keyframes meshShift {
   from {
     transform: scale(1) translate3d(0, 0, 0);
