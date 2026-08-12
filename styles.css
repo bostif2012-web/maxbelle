@@ -275,19 +275,23 @@ summary:focus-visible {
   content: "";
   position: absolute;
   inset: 0;
+  pointer-events: none;
   background:
-    linear-gradient(100deg, rgba(8, 4, 5, 0.96), rgba(8, 4, 5, 0.74) 45%, rgba(8, 4, 5, 0.9)),
-    radial-gradient(circle at 28% 34%, rgba(216, 160, 152, 0.24), transparent 34%);
+    linear-gradient(
+      100deg,
+      rgba(8, 4, 5, 0.78),
+      rgba(8, 4, 5, 0.28) 48%,
+      rgba(8, 4, 5, 0.62)
+    );
 }
-
 .hero-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.54;
+  object-position: center 45%;
+  opacity: 0.72;
   filter: saturate(0.82) contrast(1.06);
 }
-
 .hero-grid {
   position: relative;
   z-index: 1;
