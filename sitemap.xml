@@ -9,6 +9,36 @@
   </url>
 
   <url>
+    <loc>https://maxbelle.com/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://maxbelle.com/skincare.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://maxbelle.com/perfume.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://maxbelle.com/beauty.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://maxbelle.com/fashion.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
     <loc>https://maxbelle.com/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -18,12 +48,6 @@
     <loc>https://maxbelle.com/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://maxbelle.com/blog.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
@@ -50,37 +74,22 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://maxbelle.com/articles/luxury-skincare-ingredients-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://maxbelle.com/articles/best-summer-perfumes-for-women-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://maxbelle.com/articles/luxury-handbag-trends-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
-/* Hero features */
-.hero-features {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.hero-features span {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.45rem 0.9rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(8px);
-}
-
-@media (max-width: 640px) {
-  .hero-features {
-    gap: 0.6rem;
-    font-size: 0.9rem;
-  }
-
-  .hero-features span {
-    width: 100%;
-    justify-content: center;
-  }
-}

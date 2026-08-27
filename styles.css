@@ -1089,3 +1089,30 @@ bottom: 16px;
 font-size: 1.15rem;
 }
 }
+.article-related {
+  margin: 50px 0;
+  padding: 24px 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.035);
+  border-radius: 14px;
+}
+
+.article-related-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.article-related a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.article-related a:hover {
+  opacity: 0.7;
+}
