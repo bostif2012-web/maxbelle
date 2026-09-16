@@ -1116,3 +1116,56 @@ font-size: 1.15rem;
 .article-related a:hover {
   opacity: 0.7;
 }
+/* Article & blog listing pages (category pages, blog.html, /articles/*.html) */
+.article-page {
+  position: relative;
+}
+
+.blog-card {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 0;
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.blog-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-content h2 {
+  margin: 6px 0 12px;
+  font-size: clamp(1.25rem, 1.6vw, 1.6rem);
+}
+
+.blog-content p {
+  color: var(--cream-muted);
+  margin: 0 0 18px;
+}
+
+.blog-meta {
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 6px;
+}
+
+@media (max-width: 760px) {
+  .blog-card {
+    grid-template-columns: 1fr;
+  }
+  .blog-card img {
+    min-height: 200px;
+  }
+}
