@@ -101,7 +101,11 @@ a {
 
 button:focus-visible,
 a:focus-visible,
-summary:focus-visible {
+summary:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
   outline: 2px solid var(--champagne);
   outline-offset: 4px;
 }
@@ -1169,3 +1173,27 @@ font-size: 1.15rem;
     min-height: 200px;
   }
 }
+
+/* Accessibility & validation fixes: inline styles moved here */
+.article-section { padding-top: 40px; }
+.article-hero-img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: var(--radius);
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+.article-card { padding: 2.5rem; }
+.compare-scroll { overflow-x: auto; }
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+.compare-table tr,
+.compare-table tbody tr { border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+.compare-table thead tr { border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+.compare-table th { text-align: left; padding: 0.6rem 0.8rem; }
+.compare-table td { padding: 0.6rem 0.8rem; }
