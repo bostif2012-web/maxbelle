@@ -17,12 +17,14 @@
 </head>
 
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="mesh-background" aria-hidden="true"></div>
 
 <header class="site-header">
 
-  <div class="nav-shell">
+  <nav class="nav-shell" aria-label="Primary navigation">
 
-    <a href="../index.html" class="logo">
+    <a href="../index.html" class="logo" aria-label="MaxBelle home">
       <span>MaxBelle</span>
     </a>
 
@@ -33,11 +35,11 @@
       <a href="../contact.html">Contact</a>
     </div>
 
-  </div>
+  </nav>
 
 </header>
 
-<main class="article-page">
+<main id="main" class="article-page">
 
   <section class="hero">
 
@@ -97,8 +99,8 @@
 
               <thead>
                 <tr>
-                  <th>Ingredient</th>
-                  <th>Best Known For</th>
+                  <th scope="col">Ingredient</th>
+                  <th scope="col">Best Known For</th>
                 </tr>
               </thead>
 
@@ -432,8 +434,8 @@
 
             <thead>
               <tr>
-                <th>Skin Concern</th>
-                <th>Ingredients to Know</th>
+                <th scope="col">Skin Concern</th>
+                <th scope="col">Ingredients to Know</th>
               </tr>
             </thead>
 
@@ -568,7 +570,7 @@
 
     <div>
 
-      <a href="../index.html" class="logo">
+      <a href="../index.html" class="logo" aria-label="MaxBelle home">
         <span>MaxBelle</span>
       </a>
 
