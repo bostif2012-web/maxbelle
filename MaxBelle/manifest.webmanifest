@@ -1,0 +1,11 @@
+{
+  "name": "MaxBelle.com",
+  "short_name": "MaxBelle",
+  "description": "A premium luxury beauty, fashion, cosmetics, fragrance, skincare, jewelry, and lifestyle brand domain.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080405",
+  "theme_color": "#080405",
+  "icons": []
+}
