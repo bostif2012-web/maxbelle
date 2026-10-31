@@ -437,51 +437,6 @@ h3 {
   box-shadow: var(--shadow);
   backdrop-filter: blur(22px);
 }
-
-.section.article-image-section {
-  padding-top: 40px;
-}
-
-.article-feature-image {
-  width: 100%;
-  max-height: 600px;
-  object-fit: contain;
-  border-radius: var(--radius);
-  margin-top: 20px;
-  margin-bottom: 2rem;
-  background: rgba(0, 0, 0, 0.2);
-}
-
-.glass-card.article-body-card {
-  padding: 2.5rem;
-}
-
-.article-table-scroll {
-  overflow-x: auto;
-}
-
-.serum-comparison-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-}
-
-.serum-comparison-table thead tr {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.serum-comparison-table tbody tr:not(:last-child) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.serum-comparison-table th {
-  text-align: left;
-}
-
-.serum-comparison-table th,
-.serum-comparison-table td {
-  padding: 0.6rem 0.8rem;
-}
 .hero-card {
   position: absolute;
   top: 0;
@@ -1213,4 +1168,65 @@ font-size: 1.15rem;
   .blog-card img {
     min-height: 200px;
   }
+}
+
+/* Article body wrapper (replaces inline padding on .glass-card in articles) */
+.article-body {
+  padding: 2.5rem;
+}
+
+@media (max-width: 580px) {
+  .article-body {
+    padding: 1.75rem;
+  }
+}
+
+/* Section that immediately follows the hero to host the featured image */
+.article-hero-image-section {
+  padding-top: 40px;
+}
+
+/* Featured image inside an article, shown in full without cropping */
+.article-hero-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: var(--radius);
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Comparison tables inside article bodies */
+.compare-table-wrapper {
+  overflow-x: auto;
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.compare-table th,
+.compare-table td {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+}
+
+.compare-table thead tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.compare-table tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.compare-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.gtm-noscript-frame {
+  display: none;
+  visibility: hidden;
 }
